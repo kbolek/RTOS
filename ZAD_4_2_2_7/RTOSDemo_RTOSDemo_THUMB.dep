@@ -1,0 +1,125 @@
+Dependencies for Project 'RTOSDemo', Target 'RTOSDemo_THUMB': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5FD91420)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I..\..\Source\portable\RVDS\ARM7_LPC21xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\bin\startup.o --depend .\bin\startup.d)
+F (.\main.c)(0x608569AB)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\main.o --omf_browse .\bin\main.crf --depend .\bin\main.d)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\FreeRTOS.h)(0x5FD91473)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\FreeRTOSConfig.h)(0x60846820)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\projdefs.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\portable.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\deprecated_definitions.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\mpu_wrappers.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\task.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\list.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\keyboard.h)(0x6071807E)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\servo.h)(0x608566BF)
+F (.\led.c)(0x6073014F)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\led.o --omf_browse .\bin\led.crf --depend .\bin\led.d)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\led.h)(0x6073005A)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+F (.\uart.c)(0x60734A9F)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\uart.o --omf_browse .\bin\uart.crf --depend .\bin\uart.d)
+I (C:\Keil\ARM\Inc\Philips\LPC210X.H)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\uart.h)(0x60840B32)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\string.h)(0x00000000)
+F (.\string.c)(0x6071D391)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\string.o --omf_browse .\bin\string.crf --depend .\bin\string.d)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\string.h)(0x00000000)
+F (.\keyboard.c)(0x60718071)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\keyboard.o --omf_browse .\bin\keyboard.crf --depend .\bin\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\keyboard.h)(0x6071807E)
+F (.\keyboard.h)(0x6071807E)()
+F (.\servo.c)(0x6087E634)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\servo.o --omf_browse .\bin\servo.crf --depend .\bin\servo.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\led.h)(0x6073005A)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\FreeRTOS.h)(0x5FD91473)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\FreeRTOSConfig.h)(0x60846820)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\projdefs.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\portable.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\deprecated_definitions.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\mpu_wrappers.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\task.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\list.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\queue.h)(0x5FD91473)
+F (.\timer_interrupts.c)(0x6072EF49)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\timer_interrupts.o --omf_browse .\bin\timer_interrupts.crf --depend .\bin\timer_interrupts.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\led.h)(0x6073005A)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\timer_interrupts.h)(0x6072DF41)
+F (.\servo.h)(0x608566BF)()
+F (..\..\Source\tasks.c)(0x60703630)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\tasks.o --omf_browse .\bin\tasks.crf --depend .\bin\tasks.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\FreeRTOS.h)(0x5FD91473)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\FreeRTOSConfig.h)(0x60846820)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\projdefs.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\portable.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\deprecated_definitions.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\mpu_wrappers.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\task.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\list.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\timers.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\stack_macros.h)(0x5FD91473)
+F (..\..\Source\list.c)(0x5FD91473)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\list.o --omf_browse .\bin\list.crf --depend .\bin\list.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\FreeRTOS.h)(0x5FD91473)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\FreeRTOSConfig.h)(0x60846820)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\projdefs.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\portable.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\deprecated_definitions.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\mpu_wrappers.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\list.h)(0x5FD91473)
+F (..\..\Source\queue.c)(0x5FD91474)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\queue.o --omf_browse .\bin\queue.crf --depend .\bin\queue.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\FreeRTOS.h)(0x5FD91473)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\FreeRTOSConfig.h)(0x60846820)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\projdefs.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\portable.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\deprecated_definitions.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\mpu_wrappers.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\task.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\list.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\queue.h)(0x5FD91473)
+F (..\..\Source\portable\RVDS\ARM7_LPC21xx\port.c)(0x5FD91473)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\port.o --omf_browse .\bin\port.crf --depend .\bin\port.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\FreeRTOS.h)(0x5FD91473)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\FreeRTOSConfig.h)(0x60846820)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\projdefs.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\portable.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\deprecated_definitions.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\mpu_wrappers.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\task.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\list.h)(0x5FD91473)
+F (..\..\Source\portable\MemMang\heap_2.c)(0x5FD91473)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\heap_2.o --omf_browse .\bin\heap_2.crf --depend .\bin\heap_2.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\FreeRTOS.h)(0x5FD91473)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Demo\ZAD_4_2_2_7\FreeRTOSConfig.h)(0x60846820)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\projdefs.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\portable.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\deprecated_definitions.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\mpu_wrappers.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\task.h)(0x5FD91473)
+I (C:\Users\bolko\Desktop\FreeRTOSv202012.00\FreeRTOS\Source\include\list.h)(0x5FD91473)
+F (..\..\Source\portable\RVDS\ARM7_LPC21xx\portASM.s)(0x5FD91473)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I..\..\Source\portable\RVDS\ARM7_LPC21xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\portasm.lst --xref -o .\bin\portasm.o --depend .\bin\portasm.d)
