@@ -1,0 +1,16 @@
+.\bin\watch.o: watch.c
+.\bin\watch.o: watch.h
+.\bin\watch.o: ..\..\Source\include\FreeRTOS.h
+.\bin\watch.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\bin\watch.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\bin\watch.o: .\FreeRTOSConfig.h
+.\bin\watch.o: C:\Keil\ARM\Inc\Philips\lpc21xx.h
+.\bin\watch.o: ..\..\Source\include\projdefs.h
+.\bin\watch.o: ..\..\Source\include\portable.h
+.\bin\watch.o: ..\..\Source\include\deprecated_definitions.h
+.\bin\watch.o: ..\..\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+.\bin\watch.o: ..\..\Source\include\mpu_wrappers.h
+.\bin\watch.o: ..\..\Source\include\queue.h
+.\bin\watch.o: ..\..\Source\include\task.h
+.\bin\watch.o: ..\..\Source\include\list.h
+.\bin\watch.o: led.h

@@ -1,0 +1,15 @@
+.\bin\keyboard.o: keyboard.c
+.\bin\keyboard.o: C:\Keil\ARM\Inc\Philips\LPC21xx.H
+.\bin\keyboard.o: keyboard.h
+.\bin\keyboard.o: ..\..\Source\include\FreeRTOS.h
+.\bin\keyboard.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\bin\keyboard.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\bin\keyboard.o: .\FreeRTOSConfig.h
+.\bin\keyboard.o: ..\..\Source\include\projdefs.h
+.\bin\keyboard.o: ..\..\Source\include\portable.h
+.\bin\keyboard.o: ..\..\Source\include\deprecated_definitions.h
+.\bin\keyboard.o: ..\..\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+.\bin\keyboard.o: ..\..\Source\include\mpu_wrappers.h
+.\bin\keyboard.o: ..\..\Source\include\queue.h
+.\bin\keyboard.o: ..\..\Source\include\task.h
+.\bin\keyboard.o: ..\..\Source\include\list.h
